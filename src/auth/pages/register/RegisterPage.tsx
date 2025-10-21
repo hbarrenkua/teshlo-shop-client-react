@@ -20,6 +20,7 @@ export const RegisterPage = () => {
     event.preventDefault();
 
 
+    console.log(isPosting)
     setIsPosting(true);
     const formData = new FormData(event.target as HTMLFormElement)
 
